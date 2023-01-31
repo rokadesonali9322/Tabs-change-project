@@ -1,0 +1,97 @@
+.container{
+    margin: 3rem 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ h1{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: rgb(4, 4, 138);
+    margin-top: 5rem;
+    text-transform: capitalize;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    color: skyblue;
+    height: 5px;
+}
+.user-name-data{
+    width: 30vw;
+   display:flex;
+   justify-content: space-around;
+   align-items: flex-end;
+   flex-direction: column;
+   margin-bottom: 7.3rem;
+
+}
+.user-name-data button{
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: black;
+     border: none;
+     outline: none;
+     margin: .4rem;
+}
+.user-name-data button:disabled{
+        text-decoration: underline;
+        color:rgb(10, 136, 185);       
+}
+
+.content {
+    width: 65vw;
+    height: auto;
+}
+.content h3{
+ font-size: 2rem;
+ color:rgb(49, 49, 49);
+ letter-spacing: 1px;
+ word-spacing: 3px;
+ margin: 0.6rem;
+ text-transform: capitalize;
+}
+.user-name{
+    margin: 0 .6rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgb(184, 148, 218);
+    color: rgb(77, 5, 145);
+}
+
+.content h4{
+    text-transform: capitalize;
+    margin-top: .6rem;
+    font-size: 1.1rem;
+    margin-left: 0.6rem;
+    color: rgb(107, 106, 106);
+}
+p{
+    font-size: 1rem;
+    left: 1px;
+    word-spacing: 2px;
+    padding-right: 6rem;
+    line-height: 25px;
+    margin-left: 0.6rem;
+    
+}
+.more-info{
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-left: 8rem;
+    padding: .8rem 1.8rem;
+    background-color: rgb(16, 95, 126);
+    border: 1px solid blue;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
